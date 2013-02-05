@@ -28,7 +28,7 @@ private:
 	///Enables us to quit from the game loop
 	bool QuitB;
 	///Stores elasped time between frames
-	float ETime;
+	unsigned int ETime;
 	///Texture manager that takes care of storing textures and preventing redundancy
 	sfmlTextureManager *TexMan;
 
@@ -89,7 +89,7 @@ public:
 	///Take care of event-based input
 	void Input(sf::Event e);
 	///Take care of updates
-	void Update(float time);
+	void Update(unsigned int time);
 	///Take care of drawing objects
 	void Draw(sf::RenderTarget& view);
 };
