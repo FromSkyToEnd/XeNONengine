@@ -36,7 +36,7 @@ private:
 	Put the variables your game will use here					\
 	We'll put them here instead of making variables global		
 
-	sSprite *Grump;
+	sSprite *Grump;//Used in the example of main.cpp
 
 	//\\*******************//\\
 
